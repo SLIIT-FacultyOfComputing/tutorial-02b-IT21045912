@@ -13,7 +13,7 @@ int main()
     printf("Enter a Number : ");
     scanf("%d", &no);
 
-    fac = 1;
+    fac = 1 ;
     for (int r=no; r >= 1; r--) {
         fac = fac * r;
     }
